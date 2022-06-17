@@ -114,9 +114,43 @@ hr{
     width: 100%;
 
 
+
+}
+
+
+@media only screen and (max-width: 1261px)  {
+    .holderCards{
+        display: grid;
+        grid-template-columns:   1fr;
+        grid-gap: 5px; 
+        margin: 5px auto;
+        position: absolute;
+        top: 45%;
+        width: 100%;
+    
+    
+    
+    }
+    .HedingTex{
+        font-size: 4rem;
+        font-family: 'Passion One', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: 30%;
+        color: #FAFAFA;
+       
+    }
+
+
+
+
 }
 .card1{
-   height: 450px;
+   height: auto;
+   min-height: 450px;
     width: 90%;
     max-width: 1050px;
     margin: auto;
@@ -186,11 +220,11 @@ table, th, td {
 
 .Tesmcarholder{
     display: grid;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
    justify-content: center;
    vertical-align: middle;
-   
+
 
  
 }
@@ -242,6 +276,7 @@ table, th, td {
 .addres{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
 }
 
 .textWher{
@@ -276,11 +311,12 @@ table, th, td {
 
 
 .fotter{
-    position: relative;
+  
     bottom: 0px;
     background-color: #1d1a6c;
     height: 90%;
     padding: 15px;
+    margin-top: 25px;
     border-top: #E2AA35 5px solid;
     color:#FAFAFA;
     font-family: 'Lexend Deca', sans-serif;  
@@ -289,4 +325,47 @@ table, th, td {
 .cont{
     padding: 1px;
     margin-top: -10px;
+}
+
+
+
+@media only screen and (max-width: 1261px)  {
+    .holderCards{
+        display: grid;
+        grid-template-columns:   1fr;
+        grid-gap: 5px; 
+        margin: 5px auto;
+        position: absolute;
+        top: 45%;
+        width: 100%;
+    
+    
+    
+    }
+    .HedingTex{
+        font-size: 4rem;
+        font-family: 'Passion One', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        top: 30%;
+        color: #FAFAFA;
+       
+    }
+
+    .Tesmcarholder{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+       justify-content: center;
+       vertical-align: middle;
+    
+    
+     
+    }
+
+
+
 }
