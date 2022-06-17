@@ -1,0 +1,292 @@
+
+
+body{
+    background-color: #202020;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.hedig{
+    background: #1d1a6c;
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0 45%);
+    height: 150vh;
+  
+    margin-top: -25px;
+    
+    /*background: linear-gradient(90deg, rgba(203,155,81,1) 5%, rgba(234,206,110,1) 42%, rgba(246,226,122,1) 56%, rgba(246,226,122,1) 69%, rgba(246,226,122,1) 72%, rgba(203,155,81,1) 100%);*/
+}
+
+
+
+
+
+
+
+.holderbuttons{ /* jobbe med enne */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.hedingholder{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+   
+    grid-gap: 15px;
+    margin: auto;
+    justify-content: center;
+
+
+   
+  
+}
+
+
+.HedingTex{
+    font-size: 7rem;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    color: #FAFAFA;
+   
+}
+hr{
+    border: #E2AA35 3px solid;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.hedingcard{
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+.lineNavHoeder{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 15px;
+    
+    
+    position: absolute;
+    top: 10%;
+    left: 3%;
+   
+}
+.Lin{
+    border-radius: 90%;
+    background-color: #FAFAFA;
+    height: 55px;
+    width:55px;
+    border: black solid 2px;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+.Tex{
+    margin:auto;
+    margin-left: -5px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FAFAFA;
+}
+
+.holderCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px; 
+    margin: 5px auto;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+
+
+}
+.card1{
+   height: 450px;
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+    background-color: #FAFAFA;
+    z-index: 1;
+    border-radius: 5px;;
+    padding: 5px;
+  
+}
+
+table, th, td {
+    border:0.5px solid black;
+    background-color: white;
+    margin: auto;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+
+/*imgholder*/
+.icon{
+    max-width: 50px;
+    justify-items: center;
+    background-color: #FAFAFA;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 90%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/*img*/
+.imgcard{
+    max-width: 30px;
+    width: 90%;
+    justify-content: center;
+
+   
+}
+
+.showText1{
+    background-color: #313131;
+    text-shadow: 0 0 2px #E2AA35;
+    opacity: 0.5;
+    z-index: 1;
+    color: #313131;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Passion One', cursive;
+}
+
+
+
+.showText{
+    background-color: #313131;
+    text-shadow: 0 0 2px #E2AA35;
+    opacity: 0.5;
+    z-index: 1;
+    color: #313131;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Passion One', cursive;
+}
+
+.Tesmcarholder{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-gap: 15px;
+   justify-content: center;
+   vertical-align: middle;
+   
+
+ 
+}
+.Teamcar{
+    background-color: #1d1a6c;
+    height: 100%;
+   
+    min-width: 390px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1px;
+}
+
+.delT{
+
+   
+    width: 100%;
+    min-width: 100px;
+    
+    height: 20px;
+    margin: auto;
+    margin: 15px auto;
+    color: #FAFAFA;
+    font-family: 'Lexend Deca', sans-serif;  
+    border:#FAFAFA 1px solid;  
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+.teamNAme{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FAFAFA;
+}
+
+.addres{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textWher{
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+
+
+
+/*tekst*/
+
+
+.inleding{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+
+.txtholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    margin-top: -10px;
+}
+
+.texbok1{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.texbok2{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.fotter{
+    position: relative;
+    bottom: 0px;
+    background-color: #1d1a6c;
+    height: 90%;
+    padding: 15px;
+    border-top: #E2AA35 5px solid;
+    color:#FAFAFA;
+    font-family: 'Lexend Deca', sans-serif;  
+}
+
+.cont{
+    padding: 1px;
+    margin-top: -10px;
+}
